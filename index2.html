@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div id="app">
+    {{date}}
+    <span v-text:apple></span>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+    var app=new Vue({
+        el:'#app',
+        data:{
+            date:new Date(),
+            apple:'苹果'
+        },
+        mounted:function(){
+            var _this=this;
+            var timer=setInterval({
+            _this:date=
+            },1000)
+        }
+    })
+
+  
+</script>
+</body>
+</html>
